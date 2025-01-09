@@ -69,7 +69,7 @@
     ROCKNIX_DEVICE_TREE_OVERLAYS="yes"
 
   # additional packages to install
-    ADDITIONAL_PACKAGES="libmali libmali-vulkan dkms bcmdhd"
+    ADDITIONAL_PACKAGES="libmali libmali-vulkan dkms bcmdhd ap6611-bluetooth"
 
   # additional Firmware to use ( )
   # Space separated list is supported,
