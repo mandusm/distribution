@@ -69,12 +69,12 @@
     ROCKNIX_DEVICE_TREE_OVERLAYS="yes"
 
   # additional packages to install
-    ADDITIONAL_PACKAGES="libmali libmali-vulkan dkms"
+    ADDITIONAL_PACKAGES="libmali libmali-vulkan dkms bcmdhd"
 
   # additional Firmware to use ( )
   # Space separated list is supported,
   # e.g. FIRMWARE=""
-    FIRMWARE="ap6256-firmware g610-mali-csffw iwlwifi-firmware ibt-firmware"
+    FIRMWARE="ap6256-firmware g610-mali-csffw dkms iwlwifi-firmware ibt-firmware"
 
   # debug tty path
     DEBUG_TTY="/dev/ttyFIQ0"
