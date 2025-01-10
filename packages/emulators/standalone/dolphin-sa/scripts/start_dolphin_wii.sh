@@ -225,6 +225,9 @@ fi
     cp -r /storage/.config/dolphin-emu/WiiControllerProfiles/classic.ini /storage/.config/dolphin-emu/WiimoteNew.ini
   elif [ "$CON" = "custom" ]; then
     cp -r /storage/.config/dolphin-emu/WiiControllerProfiles/custom.ini /storage/.config/dolphin-emu/WiimoteNew.ini
+  elif [ "$CON" = "realwiimote" ]; then
+    cp -r /storage/.config/dolphin-emu/WiiControllerProfiles/realwiimote.ini /storage/.config/dolphin-emu/WiimoteNew.ini
+    sed -i '/WiimoteContinuousScanning/c\WiimoteContinuousScanning = True' /storage/.config/dolphin-emu/Dolphin.ini
   else
     cp -r /storage/.config/dolphin-emu/WiiControllerProfiles/classic.ini /storage/.config/dolphin-emu/WiimoteNew.ini
   fi
