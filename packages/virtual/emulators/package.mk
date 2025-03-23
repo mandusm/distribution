@@ -23,7 +23,7 @@ LIBRETRO_CORES="81-lr a5200-lr arduous-lr atari800-lr beetle-gba-lr beetle-lynx-
                 pcsx_rearmed-lr picodrive-lr pokemini-lr potator-lr prosystem-lr puae-lr puae2021-lr px68k-lr quasi88-lr quicknes-lr \
                 race-lr same_cdi-lr sameboy-lr sameduck-lr scummvm-lr smsplus-gx-lr snes9x-lr snes9x2002-lr snes9x2005_plus-lr       \
                 snes9x2010-lr stella-lr swanstation-lr tgbdual-lr theodore-lr tic80-lr uzem-lr vba-next-lr vbam-lr vecx-lr vice-lr   \
-                vircon32-lr virtualjaguar-lr xmil-lr wasm4-lr yabasanshiro-lr"
+                vircon32-lr virtualjaguar-lr xmil-lr wasm4-lr"
 
 ### Emulators or cores for specific devices
 case "${DEVICE}" in
